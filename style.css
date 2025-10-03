@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+.container{
+    width: 1440px;
+    height: 600px;
+    margin: auto;
+    
+}
+.nav{
+    width: 1440px;
+    height: 89px;
+    border: 1px solid #EEEEF4;
+    margin: auto;
+}
+.img{
+    padding: 30px 112px;
+}
+.ul{
+    display: flex;
+    position: relative;
+    left: 243px;
+    bottom: 55px;
+    gap: 30px;
+}
+.li{
+    font-size: 16px;
+    font-weight: 500;
+}
+.box{
+    width: 156px;
+    height: 41px;
+    color: white;
+    align-content: center;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #101010;
+    position: relative;
+    left: 1172px;
+    bottom: 85px;
+}
+.box:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: .5s;
+}
+.Take{
+    font-weight: 700;
+    font-size: 56px;
+    padding: 91px 112px;
+}
+.Learn{
+    width: 168px;
+    height: 59px;
+    background-color: #1AAB7B;
+    align-content: center;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    position: relative;
+    left: 112px;
+    bottom: 300px;
+}
+.Learn:hover{
+    background-color: white;
+    border: 1px solid #1AAB7B;
+    color: #1AAB7B;
+    transition: .5s;
+
+}
+.section{
+    width: 1440px;
+    height: 938px;
+    background-color: #F2F4F6;
+   margin: auto;
+    margin-top: 210px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.How{
+    position: relative;
+    left: 529px;
+    top: 50px;
+    font-weight: 600;
+    font-size: 36px;
+}
+.boxcha{
+    width: 384px;
+    height: 358px;
+    background-color: #F2F4F6;
+    border: 1px solid #E1E7ED;
+    padding: 30px 40px;
+}
+.b{
+    position: relative;
+    right: 330px;
+    top: 140px;     
+
+
+}
+.c{
+   position: relative;
+   right: 240px;
+   top: 140px   ;
+}
+.d{
+   position: relative;
+   left: 1000px;
+   bottom: 330px;
+}
+.e{
+    position: relative;
+    top: 62px;
+    right: 332px;
+
+}
+.f{
+     position: relative;
+    top: 62px;
+    right: 240px;
+
+}
+.boxcha:hover{
+    background-color: #1AAB7B;
+    transition: .5s;
+    color: white;
+}
+.section a{
+    color: #101010;
+}
+.section a:hover{
+   color: white;
+}
+.b p{
+    margin-top: 40px;
+}
+.b a{
+   position: relative;
+   top: 100px;
+}
+.c p{
+    margin-top: 40px;
+}
+.c a{
+   position: relative;
+   top: 100px;
+}
+.d p{
+    margin-top: 40px;
+}
+.d a{
+   position: relative;
+   top: 84px;
+}
+.e p{
+    margin-top: 40px;
+}
+.e a{
+   position: relative;
+   top: 120px;
+}
+.f p{
+    margin-top: 40px;
+}
+.f a{
+   position: relative;
+   top: 100px;
+}
+.korobka{
+    width: 1440px;
+    height: 1000px;
+    margin: auto;
+    
+    background-color: white;
+    
+}
+.h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+}
+.mars{
+    padding: 339px 112px;
+}
+.form-container {
+  position: relative;
+  bottom: 700px;
+  left: 528px;
+  width: 565px;
+  height: 434px;
+   border-radius: 8px;
+    color: white;
+}
+ 
+
+
+.form {
+  position: absolute;
+  
+  background-color: black;
+  opacity: 73%;
+  padding: 20px 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 70%; 
+}
+
+.form input,
+.form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: black;
+}
+
+
+
+.form button {
+  padding: 12px;
+  background: #1AAB7B;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 217px;
+  height: 59px;
+  margin: auto;
+  
+}
+.form button:hover{
+    background-color: white;
+    color: #101010;
+    border: 2px solid #1AAB7B;
+    transition: .5s;
+
+}
+.footer{
+    width: 1440px;
+    height: 220px;
+    background-color: #101010;
+    margin: auto;
+    
+}
+.pixer{
+    padding: 96px 112px;
+}
+.Group{
+  position: relative;
+  bottom: 95px;
+  left: 900px;
+}
+.iframe{
+    position: relative;
+    left: 750px;
+    bottom: 300px;
+}
